@@ -1,0 +1,9 @@
+C:\Work\Github\YeahToast\ExampleToaster\bin\Debug\resources.pri
+C:\Work\Github\YeahToast\ExampleToaster\bin\Debug\AppxManifest.xml
+C:\Work\Github\YeahToast\ExampleToaster\bin\Debug\ExampleToaster.build.appxrecipe
+C:\Work\Github\YeahToast\ExampleToaster\bld\Debug\priconfig.xml
+C:\Work\Github\YeahToast\ExampleToaster\bld\Debug\layout.resfiles
+C:\Work\Github\YeahToast\ExampleToaster\bld\Debug\resources.resfiles
+C:\Work\Github\YeahToast\ExampleToaster\bld\Debug\pri.resfiles
+C:\Work\Github\YeahToast\ExampleToaster\bld\Debug\LanguageQualifiers.txt
+C:\Work\Github\YeahToast\ExampleToaster\bld\Debug\ProjectArchitectures.txt
