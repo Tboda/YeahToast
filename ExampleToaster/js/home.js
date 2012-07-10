@@ -9,11 +9,19 @@
 
         ready: function (element, options) {
             document.getElementById('btnShow').addEventListener("click", showToast, false);
+            document.getElementById('btnCustomToast').addEventListener("click", customToast, false);
         }
     });
 
     function showToast() {
-        YeahToast.Toast.show({ title: "Toast title!", textContent: "Toast content!" });
+        YeahToast.show({ title: "Toast title!", textContent: "Toast content!" });
+    }
+
+    function customToast() {
+        var title = document.getElementById("txtTitle").value;
+        var content = document.getElementById("txtDescription").value;
+
+        YeahToast.show({ title: title, textContent: content });
     }
 
 })();
