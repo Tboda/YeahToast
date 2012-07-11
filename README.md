@@ -14,7 +14,7 @@ YeahToast.show({ title: "YEAHTOAST!", textContent: "message does here", textCont
 YeahToast.show({ imgsrc: "images/placeholder.png", title: "This one has an image!", textContent: "something something" });
 ```
 
-[YeahToast!][2]
+[YeahToast inspiration!][2]
 
 [1]: http://msdn.microsoft.com/en-us/library/windows/apps/hh761494.aspx
 [2]: http://www.youtube.com/watch?v=avU5onrWfYo
