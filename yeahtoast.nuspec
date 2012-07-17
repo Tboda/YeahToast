@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>YeahToast</id>
+    <version>1.0</version>
+    <authors>Damian Karzon, Anthony Zigenbine</authors>
+    <owners>Tboda</owners>
+    <description>WinJS library to make windows 8 toast notifications simple and easy</description>
+    <language>en-AU</language>
+    <projectUrl>https://github.com/Tboda/YeahToast</projectUrl>
+    <tags>WinJS Toast</tags>
+  </metadata>
+  <files>
+    <file src="lib\YeahToast.js" target="content\js" />
+  </files>
+</package>

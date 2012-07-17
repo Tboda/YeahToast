@@ -20,8 +20,11 @@
     function customToast() {
         var title = document.getElementById("txtTitle").value;
         var content = document.getElementById("txtDescription").value;
+        var image = document.getElementById("chkImage").checked;
 
-        YeahToast.show({ title: title, textContent: content });
+        var imgsrc = image ? "/images/Trophy.png" : null;
+
+        YeahToast.show({ title: title, textContent: content, imgsrc: imgsrc });
     }
 
 })();
