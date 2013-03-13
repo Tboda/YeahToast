@@ -9,13 +9,30 @@ Example Usage
 
 ```js
 YeahToast.show({ title: "YEAHTOAST!" });
-YeahToast.show({ title: "YEAHTOAST!", textContent: "message does here" });
-YeahToast.show({ title: "YEAHTOAST!", textContent: "message does here", textContent2: "message line 2" });
+YeahToast.show({ title: "YEAHTOAST!", textContent: "message goes here" });
+YeahToast.show({ title: "YEAHTOAST!", textContent: "message goes here", textContent2: "message line 2" });
 YeahToast.show({ imgsrc: "images/placeholder.png", title: "This one has an image!", textContent: "something something" });
 ```
 
 ![Example1](http://dkdevelopment.net/img/yeahtoast1.png)
 ![Example2](http://dkdevelopment.net/img/yeahtoast2.png)
+
+### Scheduling Background Notifications ###
+
+````js
+var now = new Date().getTime();
+var later = new Date(now + 60000); // 60 seconds
+
+// save a reference to the notification so you can cancel it later
+var notification = YeahToast.schedule({ title: "YEAHTOAST", textContent: "message goes here", due: later });
+
+````
+
+### Canceling Background Notifications ###
+
+````js
+YeahToast.cancel(notification.id); 
+````
 
 ### Events ###
 ```js
